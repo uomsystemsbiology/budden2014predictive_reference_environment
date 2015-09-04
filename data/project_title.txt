@@ -1,1 +1,2 @@
-<Project Title>
+Predictive modelling of gene expression from 
+transcriptional regulatory elements

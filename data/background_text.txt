@@ -1,5 +1,8 @@
 The default user is 'sbl' password 'sbl'
-This is the content of data\background_text.txt
-Describe the basic instructions to use the environment here, and the
-location of the output files.  Double-click the script below and
-select 'Execute in Terminal' to run it
+Double-click the icons 'run_experiments.sh' or 'generate_figures.sh' and 
+select 'Execute in Terminal' to reproduce the results of the paper.
+  Budden, D. M., Hurley, D. G. & Crampin, E. J. Predictive modelling of 
+  gene expression from transcriptional regulatory elements. 
+  Brief. Bioinform. bbu034 (2014).
+
+Results and code will be in /home/sbl/budden2014predictive/output

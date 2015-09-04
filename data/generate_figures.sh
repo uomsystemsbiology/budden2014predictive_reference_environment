@@ -11,7 +11,7 @@ To find other versions of this reference environment, see Other Links below.  To
 
 ### Instructions for use
 
-This shell script reproduces the results described in the manuscript and writes 
+This shell script regenerates the figures shown in the manuscript from the data, and writes 
 output to /home/sbl/budden2014predictive/output.
 
 ### Other links
@@ -30,21 +30,13 @@ echo
 # Change to project directory
 cd /home/sbl/budden2014predictive
 
-# Back up published results
-cp -ar ./output ./output_as_published
-
-# Delete all results from output folder
-rm -f ./output/*/*/*
-
 # Delete all figures from output folder
 rm -f ./output/figures/*
-
-# Run all experiments
-Rscript run.all.experiments.R
 
 # Generate all figures
 Rscript generate.all.figures.R
 
-echo Completed analysis - output is written to /home/sbl/budden2014predictive/output | tee -a $log
+echo Generated figures - output is written to /home/sbl/budden2014predictive/output/figures | tee -a $log
+cd /home/sbl/budden2014predictive/output/figures
 echo;echo
 $SHELL
