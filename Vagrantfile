@@ -44,7 +44,7 @@ config.vm.provider "docker" do |docker,override|
     	docker.image = "uomsystemsbiology/base-docker"
     	docker.cmd = ["/sbin/my_init", "--enable-insecure-key"]
     	docker.has_ssh = true
-    	docker.name = "reference_environment_template"
+    	docker.name = "budden2014predictive"
     	override.vm.synced_folder ".", "/vagrant", disabled: true
 end
 
