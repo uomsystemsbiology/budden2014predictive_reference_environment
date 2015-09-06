@@ -18,9 +18,9 @@ This will start the container and execute the script which reproduce the results
 
 ### Other links
 
-[Manuscript link](http://dx.doi.org/10.1093/bib/bbu034)
+[Manuscript link](https://dx.doi.org/10.1093/bib/bbu034)
 
-[Project page link](http://uomsystemsbiology.github.io/publications/budden2014predictive/)
+[Project page link](https://uomsystemsbiology.github.io/publications/budden2014predictive/)
 
 [Vagrant-managed virtual machine](https://github.com/uomsystemsbiology/budden2014predictive_reference_environment)
 
