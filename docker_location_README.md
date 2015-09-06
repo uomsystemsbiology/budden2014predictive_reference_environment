@@ -14,7 +14,7 @@ $ docker run uomsystemsbiology/budden2014predictive /sbin/my_init -- ./run_exper
 $ docker run uomsystemsbiology/budden2014predictive /sbin/my_init -- ./generate_figures.sh
 ```
 
-This will start the container and execute the script which reproduce the results described in the manuscript.  
+This will start the container and execute scripts to reproduce the results described in the manuscript.  
 
 ### Other links
 
